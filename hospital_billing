@@ -1,0 +1,43 @@
+print("================================")
+print("        HOSPITAL BILLING")
+print("================================")
+patient = input("Enter Patient Name: ")
+doctor = input("Enter Doctor Name: ")
+consultation = float(input("Enter Consultation Fee: "))
+medicine = float(input("Enter Medicine Charges: "))
+test = float(input("Enter Test Charges: "))
+total = consultation + medicine + test
+print("\n================================")
+print("          BILL RECEIPT")
+print("================================")
+print("Patient Name     :", patient)
+print("Doctor Name      :", doctor)
+print("Consultation Fee :", consultation)
+print("Medicine Charges :", medicine)
+print("Test Charges     :", test)
+print("--------------------------------")
+print("Total Bill       :", total)
+print("================================")
+print("Thank you!")
+
+OUTPUT:
+================================
+        HOSPITAL BILLING
+================================
+Enter Patient Name: NIKHIL
+Enter Doctor Name: RAMESH
+Enter Consultation Fee: 1000
+Enter Medicine Charges: 490
+Enter Test Charges: 540
+================================
+          BILL RECEIPT
+================================
+Patient Name     : NIKHIL
+Doctor Name      : RAMESH
+Consultation Fee : 1000.0
+Medicine Charges : 490.0
+Test Charges     : 540.0
+--------------------------------
+Total Bill       : 2030.0
+================================
+Thank you!
